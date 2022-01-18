@@ -1825,7 +1825,7 @@ input, select, textarea {
 		appearance: none;
 		background: #f7f7f7;
 		border-radius: 0.35em;
-		border: solid 2px transparent;
+		border: solid 2px rgb(199, 196, 196);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -2256,6 +2256,11 @@ input, select, textarea {
 		list-style: none;
 		margin-left: -1em;
 		padding-left: 0;
+		
+	}
+
+	ul.actions input[type="submit"]{
+		margin-top: 40px;
 	}
 
 		ul.actions li {
@@ -2720,7 +2725,6 @@ input, select, textarea {
 
 		.mysite {
 			margin-top: 30px;
-			/* background-color: red; */
 		}
 
 		.live {
@@ -2729,6 +2733,12 @@ input, select, textarea {
 
 		.bold {
 			font-weight: 700;
+		}
+
+		.skills {
+			padding-top: 20px;
+			font-weight: bold;
+			/* background-color: red; */
 		}
 
 
