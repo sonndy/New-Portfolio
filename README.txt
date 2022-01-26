@@ -1,1 +1,0 @@
-# Sonndy's personal website
