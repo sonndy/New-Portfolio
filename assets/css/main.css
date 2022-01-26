@@ -2635,7 +2635,7 @@ input, select, textarea {
 		}
 
 		.about {
-			color: rgba(255, 255, 255, 0.6);
+			color: rgba(255, 255, 255, 0.65);
 		}
 
 		#header strong, #header b {
@@ -2718,9 +2718,10 @@ input, select, textarea {
 	/* Added Section */
 		.newSection {
 			border-top: solid 2px #efefef;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 2em 0 0 0;
 			margin-bottom: 30px;
+			/* background-color: red; */
 		}
 
 		.mysite {
@@ -3220,6 +3221,7 @@ input, select, textarea {
 			}
 
 				#main > section {
+					/* background-color: red; */
 					margin: 2.25em 0 0 0;
 					padding: 2.25em 0 0 0;
 				}
