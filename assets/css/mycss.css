@@ -1,0 +1,73 @@
+/* My links styles */
+.mylinks {
+  margin-top: 2em;
+  margin-bottom: 4em;
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+}
+.new-links {
+  all: unset;
+  display: block;
+  background-color: #dbdbdb;
+  padding: 5px 12px;
+  color: #49bf9d;
+  border-radius: 0.35em;
+  border: solid 2px transparent;
+}
+
+.new-links:hover {
+  border: solid 2px #49bf9d;
+  cursor: pointer;
+}
+
+#main {
+  padding-top: 0;
+}
+
+#one:first-of-type {
+  margin: 0;
+  padding: 0;
+  border-top: none;
+}
+
+/* My sections styles */
+
+.DCIM {
+  display: none;
+}
+
+.experience {
+  display: none;
+}
+
+/* Utility class */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+/* Work Experience Styles */
+
+.resilience {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.experience-img {
+  width: 300px;
+}
+
+.description-header {
+  margin: 0;
+}
+
+.description {
+  padding-left: 40px;
+  padding-top: 0;
+}
