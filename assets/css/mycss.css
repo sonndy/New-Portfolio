@@ -1,4 +1,8 @@
 /* My links styles */
+
+#main {
+  padding-right: 0em;
+}
 .mylinks {
   margin-top: 2em;
   margin-bottom: 4em;
@@ -53,10 +57,15 @@
 
 /* Work Experience Styles */
 
-.resilience {
+.resilience,
+.church {
   display: flex;
   align-items: center;
   width: 100%;
+  border: solid 3px #49bf9d;
+  border-radius: 0.35em;
+  margin-bottom: 1em;
+  padding: 20px;
 }
 
 .experience-img {
@@ -70,4 +79,9 @@
 .description {
   padding-left: 40px;
   padding-top: 0;
+}
+
+.church-img {
+  height: 300px;
+  border-radius: 50%;
 }
