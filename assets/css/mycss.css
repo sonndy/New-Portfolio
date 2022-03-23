@@ -8,8 +8,19 @@
   margin-top: 2em;
   margin-bottom: 4em;
   display: flex;
-  width: 65%;
+  width: 75%;
   justify-content: space-between;
+  padding-bottom: 40px;
+  
+}
+
+.navigation {
+  padding-top: 20px;
+  background-color:#c5f7e9;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 .new-links {
   all: unset;
@@ -35,11 +46,11 @@
   padding: 0;
 } */
 
-#one:first-of-type {
+/* #one:first-of-type {
   margin: 0;
   padding: 0;
   border-top: none;
-}
+} */
 
 .experience h1,
 .DCIM h1 {
@@ -56,19 +67,7 @@
   display: none;
 }
 
-/* Utility class */
 
-.hide {
-  display: none;
-}
-
-.show {
-  display: block;
-}
-
-.border {
-  border: solid 2px #49bf9d;
-}
 
 /* Work Experience Styles */
 
@@ -195,13 +194,15 @@ figcaption {
   border-radius: 0.35em;
 }
 
-.mobile-footer {
- 
-}
 
 .icon.brands {
   color: white;
 }
+
+.about-page{
+  display: none;
+}
+
 
 /* Responsive design */
 
@@ -251,25 +252,49 @@ figcaption {
     flex-direction: column-reverse;
     padding-top: 0;
   }
+
+  
 }
 
 
 
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 979px) {
   #main {
     padding-right: 2em;
   }
   .mylinks {
     flex-direction: column;
     width: 100%;
-    height: 150px;
+    height: 250px;
     justify-content: space-around;  
-
-  }
-
-  .new-links {
+ 
+    padding: 1em;
     font-size: 0.75em;
+    /* Stuff */
+    top: 0;
+    z-index: 100;
+    display: none;
   }
+/* 
+  .navigation {
+    padding-top: 20px;
+    background-color: red;
+  } */
+
+  .burger-icon {
+    width: 50px;
+    /* text-align: right; */
+    margin-left: auto;
+    margin-right: 10px;
+  }
+
+  .burger-icon svg {
+    filter: invert(62%) sepia(71%) saturate(327%) hue-rotate(112deg) brightness(92%) contrast(85%);
+  }
+  
+
+
+
 
   .resilience,
   .church {
@@ -302,10 +327,47 @@ figcaption {
     padding-top: 0;
   }
 
+  /* .burger-icon {
+    display: none;
+  } */
 }
 
 @media screen and (min-width: 980px){
   .mobile-footer {
     display: none;
   }
+
+  #main {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .mylinks{
+    margin-top: 2em;
+    justify-content: space-around;
+    width: 90%;
+  }
+
+  .burger-icon {
+    display: none;
+  }
+
+}
+
+/* Utility class */
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.border {
+  border: solid 2px #49bf9d;
+}
+
+.flex {
+  display: flex;
 }
