@@ -5,22 +5,22 @@
   min-width: 400px;
 }
 .mylinks {
-  margin-top: 2em;
-  margin-bottom: 4em;
   display: flex;
   width: 75%;
   justify-content: space-between;
-  padding-bottom: 40px;
+  /* padding-bottom: 25px; */
   
 }
 
 .navigation {
-  padding-top: 20px;
-  background-color:#c5f7e9;
+  margin-bottom: 2em;
+  background-color:#98e6ce;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 100;
+
+  /* template css */
 }
 .new-links {
   all: unset;
@@ -253,6 +253,18 @@ figcaption {
     padding-top: 0;
   }
 
+  .navigation {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 2em;
+  }
+
+  .burger-icon {
+    width: 30px;
+  }
+
   
 }
 
@@ -275,11 +287,14 @@ figcaption {
     z-index: 100;
     display: none;
   }
-/* 
+
   .navigation {
     padding-top: 20px;
-    background-color: red;
-  } */
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+  }
 
   .burger-icon {
     width: 50px;
@@ -327,6 +342,12 @@ figcaption {
     padding-top: 0;
   }
 
+  .email, .address {
+    background-color: red;
+    overflow-wrap: break-word;
+  }
+
+
   /* .burger-icon {
     display: none;
   } */
@@ -337,13 +358,8 @@ figcaption {
     display: none;
   }
 
-  #main {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
 
   .mylinks{
-    margin-top: 2em;
     justify-content: space-around;
     width: 90%;
   }
@@ -352,6 +368,15 @@ figcaption {
     display: none;
   }
 
+  .navigation {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    /* padding-left: 10px;
+    padding-right: 10px; */
+
+  }
+
+ 
 }
 
 /* Utility class */
@@ -371,3 +396,29 @@ figcaption {
 .flex {
   display: flex;
 }
+
+
+@media screen and (min-width: 1000px){
+  
+  .navigation {
+    /* template css */
+    margin-left: auto;
+    /* width: 100%; */
+    width: calc(100% - 30%);
+    /* max-width: 54em; */
+  }
+    
+  }
+
+  @media screen and (min-width: 1300px){
+
+  
+    .navigation {
+      margin-left: auto;
+    
+      width: calc(100% - 35%);
+    }
+      
+    }
+    
+
