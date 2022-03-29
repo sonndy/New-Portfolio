@@ -37,6 +37,16 @@
   cursor: pointer;
 }
 
+.capstone-link {
+  all: unset;
+  padding: 5px 12px;
+  color: #49bf9d;
+  border: solid 2px #49bf9d;
+  border-radius: 0.35em;
+  margin-bottom: 30px;
+}
+
+
 #main {
   padding-top: 0;
 }
