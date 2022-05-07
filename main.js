@@ -26,6 +26,7 @@ window.addEventListener("DOMContentLoaded", ()=> {
             webDevSection.classList.add("hide");
             experienceSection.classList.add("hide");
             aboutMeSection.classList.add("hide");
+            aboutMeSection.classList.remove("show");
             experienceSection.classList.remove("show");
             dcimSection.classList.add("show");
 
